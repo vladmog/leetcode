@@ -24,3 +24,10 @@ Return:
     "14",
     "FizzBuzz"
 ]
+
+===========================
+
+RESULT:
+
+Runtime: 88 ms, faster than 34.35% of JavaScript online submissions for Fizz Buzz.
+Memory Usage: 39.3 MB, less than 5.51% of JavaScript online submissions for Fizz Buzz.
