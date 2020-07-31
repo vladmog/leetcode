@@ -38,3 +38,11 @@ rotate the input matrix in-place such that it becomes:
   [12, 6, 8, 9],
   [16, 7,10,11]
 ]
+
+
+========================
+
+RESULT:
+
+Runtime: 80 ms, faster than 39.43% of JavaScript online submissions for Rotate Image.
+Memory Usage: 36.4 MB, less than 15.09% of JavaScript online submissions for Rotate Image.
