@@ -17,3 +17,10 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 Follow up:
 
 Coud you solve it without converting the integer to a string?
+
+=========================================
+
+RESULT:
+
+Runtime: 200 ms, faster than 85.68% of JavaScript online submissions for Palindrome Number.
+Memory Usage: 46.8 MB, less than 22.44% of JavaScript online submissions for Palindrome Number.
