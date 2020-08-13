@@ -3,7 +3,8 @@
  * @return {boolean}
  */
 var isPalindrome = function(x) {
-    // If negative, not a palindrome. Return false
+
+    // If negative, number is not a palindrome. Return false
     if (x < 0) {
         return false
     }
@@ -21,4 +22,5 @@ var isPalindrome = function(x) {
     } else {
         return false
     }
+
 };
