@@ -26,3 +26,10 @@ Example 5:
 
 Input: "{[]}"
 Output: true
+
+===================
+
+RESULT:
+
+Runtime: 68 ms, faster than 89.13% of JavaScript online submissions for Valid Parentheses.
+Memory Usage: 37.2 MB, less than 30.22% of JavaScript online submissions for Valid Parentheses.
