@@ -37,5 +37,3 @@ var isValid = function(s) {
     // If after going through string, stack is empty return true. Else, string is invalid
     if (!stack.length) {return true} else {return false}
 };
-
-console.log(isValid("()()"))
