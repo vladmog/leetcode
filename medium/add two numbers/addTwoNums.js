@@ -40,6 +40,7 @@ var addTwoNumbers = function (l1, l2) {
 			carry = 1;
 			total = total - 10;
 		}
+		
 		currNode.val = total;
 		total = 0;
 		if (l1 || l2 || carry) {
