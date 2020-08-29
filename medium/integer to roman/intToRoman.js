@@ -49,5 +49,5 @@ var intToRoman = function(num) {
     return roman
 };
 
-console.log(intToRoman(55))
+console.log(intToRoman(1994))
 
