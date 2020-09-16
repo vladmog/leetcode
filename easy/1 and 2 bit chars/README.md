@@ -15,3 +15,10 @@ bits = [1, 1, 1, 0]
 Output: False
 Explanation: 
 The only way to decode it is two-bit character and two-bit character. So the last character is NOT one-bit character.
+
+================
+
+RESULT:
+
+Runtime: 72 ms, faster than 88.36% of JavaScript online submissions for 1-bit and 2-bit Characters.
+Memory Usage: 36.5 MB, less than 93.10% of JavaScript online submissions for 1-bit and 2-bit Characters.
