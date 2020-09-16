@@ -17,3 +17,11 @@ Constraints:
 Each string consists only of '0' or '1' characters.
 1 <= a.length, b.length <= 10^4
 Each string is either "0" or doesn't contain any leading zero.
+
+
+======
+
+RESULT:
+
+Runtime: 64 ms, faster than 99.95% of JavaScript online submissions for Add Binary.
+Memory Usage: 37.7 MB, less than 71.49% of JavaScript online submissions for Add Binary.

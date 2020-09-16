@@ -3,7 +3,6 @@
  * @return {boolean}
  */
 var isOneBitCharacter = function(bits) {
-    // bits
     let skip = false;
     let isOneBit
     for (let i = 0; i < bits.length ; i++) {
