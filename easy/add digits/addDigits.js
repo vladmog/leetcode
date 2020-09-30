@@ -14,10 +14,10 @@ var addDigits = function(num) {
         for (let i = 0; i < numStr.length; i++){
             total += parseInt(numStr[i])
         }
-        console.log(total)
         // Update new number
         numStr = total.toString()
     }
+
     // Once number is one digit long, return
     return Number(numStr)
 };
