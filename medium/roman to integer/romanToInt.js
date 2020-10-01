@@ -50,10 +50,5 @@ var romanToInt = function(s) {
 };
 
 
-console.log("\n")
-console.log("================")
-console.log("\n")
-console.log(romanToInt("DCLXVI"))
-console.log("\n")
-console.log("================")
-console.log("\n")
+
+console.log("\n", romanToInt("DCLXVI"), "\n")
