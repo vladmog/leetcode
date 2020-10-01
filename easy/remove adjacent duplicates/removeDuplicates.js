@@ -3,12 +3,44 @@
  * @return {string}
  */
 var removeDuplicates = function(S) {
-    // iterate through S
-    // if S[i] === S[i+1] cut S[i] and S[i+1] out
-    // if S[i - 1] === S[i + 2]
-    //     [i - 2] === S[i + 3]
-    //     [i - 3] === S[i + 4]
-    //     ... remove S[i-n] and S[i+n+1]
-    //     store changes in new variable
-    // update S from new variable and continue iterating
+
+    // Iterate
+    for (let i = 0; i < S.length; i++){
+        let cutStart
+        let cutEnd
+        let toCut = false
+
+        // Check for duplicate
+        if (S[i] === S[i + 1]){
+            // If found, store start and end indices of duplicate
+            let dupsFound = 1
+            cutStart = i
+            cutEnd = i + 1
+            toCut = true
+            
+            // Define adjacent indices for further duplicate check
+            let nextCutStart = cutStart - 1
+            let nextCutEnd = cutEnd + 1
+
+            // If adjacent indices are also duplicates, further expand duplicate indices
+            while((S[nextCutStart] === S[nextCutEnd]) && nextCutStart >= 0 ){
+                cutStart = nextCutStart
+                cutEnd = nextCutEnd
+                nextCutStart --
+                nextCutEnd ++
+                dupsFound ++
+            }
+
+            // Decrement iteration step by number of duplicates removed
+            i -= dupsFound
+        }
+
+        // Cut out duplicates and continue iterating
+        if (toCut) {
+            S = S.substring(0, cutStart) + S.substring(cutEnd+1)
+            // S = S.replace(S.substring(cutStart, cutEnd + 1), "");
+            toCut = false
+        }
+    }
+    return S
 };
